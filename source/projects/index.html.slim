@@ -1,3 +1,14 @@
 ---
 title: Projects
 ---
+sub.uk-width-1-5.uk-text-center
+  = partial '/_subs/sub-mosaic'
+article.uk-width-4-5.uk-text-left
+  ul.uk-switcher#project-nav
+    -data.projects.works.each do |work|
+        li 
+          h3.uk-article-title #{work.title}
+          h6.uk-article-meta Last update 07/17
+          div(class="uk-column-1-1")
+              article.uk-article #{work.text}
+              a href="#{work.url}" target="_blank" uk-icon="icon: link" Go to page

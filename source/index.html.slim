@@ -6,20 +6,20 @@ sub.uk-width-1-5.uk-text-center
 article.uk-width-4-5.uk-text-left
   ul.uk-switcher#cv-nav
     -data.cv.items.each do |item|
-        li 
-          h3.uk-article-title #{item.title}
-          h6.uk-article-meta Last update 07/17
-          div(class="uk-column-1-1")
-            article.uk-article #{item.text}
-            table.uk-table
-              caption #{item.caption}
-              thead
-                tr
-                -item['heads'].each do |head|
-                  th #{head}
-              tbody
-                tr
-                -item['contents'].each do |content|
-                  td #{content}
-              tbody
-                end
+      li 
+        h3.uk-article-title #{item.title}
+        h6.uk-article-meta Last update 07/17
+        div(class="uk-column-1-1")
+          article.uk-article #{item.text}
+          table.uk-table
+            caption #{item.caption}
+            thead
+              tr
+              -item['heads'].each do |head|
+                th #{head}
+            tbody
+              tr
+              -item['contents'].each do |content|
+                td #{content}
+            tbody
+              end

@@ -31,7 +31,7 @@ items:
       - Extras
     contents:
       - <strong>Adobe CC</strong> InDesign, Photoshop, Illustrator, AfterEffects<br><br><strong>Typography</strong> FontStudio 5 - Font Design<br><br><strong>Typesetting and Printing</strong> Editorial Design
-      - <strong>HTML5/CSS/Js</strong> Pug, Slim, SASS, Vue Js, Angular Js.<br><br><strong>Frameworks</strong> jQuery, GreenSocks, UIKIT, Bootstrap, Material
+      - <strong>HTML5/CSS/Js</strong> Pug, Slim, SASS, Vue Js, Angular Js<br><br><strong>Frameworks</strong> Middleman, Harp, Rails
       - <strong>Programming</strong> PHP, Ruby, Python, Java, C
       - <strong>Version Control</strong> GIT<br><br><strong>OS</strong> Linux, OSx, Windows<br><br><strong>English Proficiency</strong> 100%
 

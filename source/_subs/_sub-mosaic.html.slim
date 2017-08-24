@@ -1,0 +1,4 @@
+ul.uk-nav.uk-nav-default.uk-text-right(uk-switcher="connect: #project-nav; animation: uk-animation-fade; toggle: > :not(.uk-nav-header)")
+  -data.projects.works.each do |work|
+    li 
+      a(href="") #{work.title}
