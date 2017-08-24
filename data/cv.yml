@@ -1,0 +1,30 @@
+items:
+  - 
+    title: About me
+    text: Hello! my name is Neftalí Hernández. I'm a mexican Front-End Web Developer with two years experience, currently training to become a Full-Stack Developer. I have a BFA in Graphic Design with a focus on Typography and Editorial Design.<br><br>I'm currently pursuing a techincal degree in Software Engineering and planning on continuing my education with a Masters in Software Production.<br><br>I'm passionate about Information Technologies and Desgin, Semiotics and Data Sciences.
+    caption:
+    heads: 
+      -
+    contents:
+      -
+  - 
+    title: Curriculum Vitae
+    text: For the past two years, I've shifted my professional activity from Editorial design to Web Development; starting off as a UI designer, I got gradually more involved in the actual development of web-sites and apps.<br><br>Hired full-time for the past year, I was offered in-house training as a Full-Stack Developer and support to continuing my education as a Software Engineer in hopes of hybridizing my Designing career with an IT approach.
+    caption: By year
+    heads:
+      - 2017
+      - 2016
+      - 2015
+    contents:
+      - <strong>Enrolled</strong> A.S. in Software Engineering<br>- Universidad Iberoamericana
+      - <strong>Graduated</strong> B.F.A in Graphic Design<br>- Universidad Anáhuac<br><br><strong>Awarded</strong> Examination Excellence<br>- CENEVAL Bachellor's graduate examination
+      - <strong>Started</strong> learning code-<br>web-resources and examples
+      - <strong>Hired</strong> at 
+  -
+    title: Skills
+    text: Lorem Ipsum Dolor Sit Amet
+    caption:
+    heads:
+      -
+    contents:
+      -

@@ -1,0 +1,4 @@
+ul.uk-nav.uk-nav-default.uk-text-right(uk-switcher="connect: #cv-nav; animation: uk-animation-fade; toggle: > :not(.uk-nav-header)")
+  -data.cv.items.each do |item|
+    li 
+      a(href="") #{item.title}

@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width"
+    title= "INHC - #{current_page.data.title}"
+    ==stylesheet_link_tag "app", "uikit"
+    ==javascript_include_tag "jquery-3.2.1.min", "app", "uikit", "uikit-icons"
+
+    body
+      nav(uk-navbar class="uk-navbar")
+        = partial '_nav'
+      .main
+        div(uk-grid class="uk-grid-medium uk-child-width-expand@s uk-text-center")
+          = yield
+

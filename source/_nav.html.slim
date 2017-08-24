@@ -1,0 +1,12 @@
+.uk-navbar-left
+  ul.uk-navbar-nav
+    -data.menu.anchors.each do |anchor|
+      li.uk-parent
+        a(href="#{url_for anchor.url}")
+          |#{anchor.text}
+.uk-navbar-right
+  ul.uk-navbar-nav
+    li.uk-parent
+      a(href="#") SPA
+    li.uk-parent
+      a(href="#") ENG

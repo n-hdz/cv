@@ -1,0 +1,13 @@
+anchors:
+  -
+    text: About me
+    url: /
+  -
+    text: Networks
+    url: /network
+  -
+    text: Projects
+    url: /projects
+  -
+    text: Contact
+    url: /contact
