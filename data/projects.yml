@@ -1,25 +1,34 @@
 works:
   -
     title: "B&times;&plus; Annual Report"
-    text: Ve por más project
+    text: 'Investor relations web page for mexican banking institution B&times;&plus;.<br>
+        This project was developed along side a team of graphic designers and corporate relations consultants;
+        adaptation to web, programming and testing done by me.'
     url: http://milenio3.com.mx/vepormas-2016/
   -
-    title: CUAMOC Web Page
-    text: CUAMOC project
+    title: CUAMOC Annual Report
+    text: 'Investor relations web page for mexican beer company Cerveceria Cuahutemoc.<br>
+        This project was developed along side a team of graphic designers and corporate relations consultants;
+        adaptation to web, programming and testing done by me.'
     url: http://milenio3.com.mx/dev_anexo/
   -
     title: Anexo Web Page
-    text: Anexo project
+    text: 'Online portfolio for mexican architect Andres Salinas and his firm Anexo.<br>
+        This project was the first solo prject I managed while hired at Milenio3Genera, from design to testing.'
     url: http://milenio3.com.mx/dev_anexo/
   -
     title: VueJS Calc
-    text: VueJS Calc project
+    text: 'Vue Js based calculator app.<br>
+        A pretty straight forward project, this calculator integrates basic MVC programming and Front-end design matters;<br>
+        This project was developed as part of an online certification for Full-stack development at FCC.'
     url: https://codepen.io/Nef_HC/full/xLqBOp/
   -
     title: Wheater App
-    text: Wheater App project
+    text: 'Restful API wheater forecast service, developed from jQuery AJAX calls.<br>
+        This app detects the user aproximate position and displays a forecast according to current time: morning, midday, afternoon or night.<br>This project was developed as part of an online certification for Full-stack development at FCC.'
     url: https://codepen.io/Nef_HC/full/gRgpGG/
   -
     title: Wiki Viewer
-    text: Wiki Viewer project
+    text: 'Restful API wikipedia article pre-viewer, developed from jQuery AJAX calls.<br>
+        This app filters through a pre-selected maximum number of articles the user wishes to search and returns a snippet each selcted topic, linking back to the original wikipedia page.<br>This project was developed as part of an online certification for Full-stack development at FCC.'
     url: https://codepen.io/Nef_HC/full/xrqPPR/
