@@ -6,14 +6,20 @@ $titles: #CCCCCC
 $text: #EDEAE8
 $links: #80D8FF
 
+html
+  
 body
   font-family: $Droid
   width: 100vw
   height: 100vh
+  position: relative
+  overflow: hidden
   background-color: $back
   @import nav
   @import sub
   .main
+    overflow-x: hidden
+    overflow-y: auto
     position: absolute
     top: 0
     right: 0
