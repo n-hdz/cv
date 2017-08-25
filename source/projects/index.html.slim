@@ -9,6 +9,10 @@ article.uk-width-4-5.uk-text-left
         li 
           h3.uk-article-title #{work.title}
           h6.uk-article-meta Last update 07/17
-          div(class="uk-column-1-1")
-              article.uk-article #{work.text}
-              a href="#{work.url}" target="_blank" uk-icon="icon: link" Go to page
+          div(class="uk-column-1-1 uk-grid-small" uk-grid)
+              div class="uk-width-1-1 uk-width-2-3@s"
+                img(src="#{work.img}")
+              div class="uk-width-1-1 uk-width-1-3@s"
+                article.uk-article #{work.text}
+                <br>
+                a href="#{work.url}" target="_blank" uk-icon="icon: link" Go to page

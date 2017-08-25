@@ -1,9 +1,16 @@
 @import variables
 @import mixins
+
+$back: #112233
+$titles: #CCCCCC
+$text: #EDEAE8
+$links: #80D8FF
+
 body
   font-family: $Droid
   width: 100vw
   height: 100vh
+  background-color: $back
   @import nav
   @import sub
   .main
@@ -13,3 +20,23 @@ body
     bottom: 0
     left: 0
     padding: 20vh 15vw
+    article
+      color: $text
+      .uk-article-title
+        color: $titles
+      .info
+        ul 
+          list-style: none
+          padding: 0
+          li 
+            margin-bottom: 1.5em
+            a 
+              color: $links
+              text-decoration: none
+              border-bottom: 0px solid #BFBFBF
+              @include transition( all 0.5s )
+              &:hover
+                color: #333
+                border-bottom: 0px solid #333
+            h6
+              color: $text
