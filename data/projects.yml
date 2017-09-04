@@ -1,5 +1,12 @@
 works:
   -
+    title: Jose Cuervo Corporate Site (WIP)
+    img: '/img/02.jpg'
+    text: 'Corporate website for mexican spirits company José Cuervo.<br>
+        This project was developed along side a team of graphic designers, a senior developer, and corporate relations consultants;
+        adaptation to web, programming and testing done by me.'
+    url: http://milenio3.com.mx/jose-cuervo/corporativo
+  -
     title: "B&times;&plus; Annual Report"
     img: '/img/01.jpg'
     text: 'Investor relations web page for mexican banking institution B&times;&plus;.<br>
@@ -7,18 +14,18 @@ works:
         adaptation to web, programming and testing done by me.'
     url: http://milenio3.com.mx/vepormas-2016/
   -
-    title: CUAMOC Annual Report
-    img: '/img/02.jpg'
-    text: 'Investor relations web page for mexican beer company Cerveceria Cuahutemoc.<br>
-        This project was developed along side a team of graphic designers and corporate relations consultants;
-        adaptation to web, programming and testing done by me.'
-    url: http://milenio3.com.mx/Dev_CUAMOC-2016/
-  -
     title: Anexo Web Page
     img: '/img/03.jpg'
     text: 'Online portfolio for mexican architect Andres Salinas and his firm Anexo.<br>
         This project was the first solo prject I managed while hired at Milenio3Genera, from design to testing.'
     url: http://milenio3.com.mx/dev_anexo/
+  -
+    title: Pomodoro Clock
+    img: '/img/06.jpg'
+    text: 'Pomodoro technique clock, developed in Vue js.<br>
+        Inteded as a tool to increase productivity, this clock counts and pauses for four user-specified intervals, and then sets a long pause of 30mins;<br>
+        This project was developed as part of an online certification for Full-stack development at FCC.'
+    url: https://codepen.io/Nef_HC/full/xrqPPR/
   -
     title: VueJS Calc
     img: '/img/04.jpg'
@@ -32,9 +39,3 @@ works:
     text: 'Restful API wheater forecast service, developed from jQuery AJAX calls.<br>
         This app detects the user aproximate position and displays a forecast according to current time: morning, midday, afternoon or night.<br>This project was developed as part of an online certification for Full-stack development at FCC.'
     url: https://codepen.io/Nef_HC/full/gRgpGG/
-  -
-    title: Wiki Viewer
-    img: '/img/06.jpg'
-    text: 'Restful API wikipedia article pre-viewer, developed from jQuery AJAX calls.<br>
-        This app filters through a pre-selected maximum number of articles the user wishes to search and returns a snippet each selcted topic, linking back to the original wikipedia page.<br>This project was developed as part of an online certification for Full-stack development at FCC.'
-    url: https://codepen.io/Nef_HC/full/xrqPPR/

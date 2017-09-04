@@ -1,0 +1,5 @@
+current directory: /home/n-hdz/Dropbox/webdev/cv/vendor/bundle/ruby/2.3.0/gems/fast_blank-1.0.0/ext/fast_blank
+/usr/bin/ruby2.3 -r ./siteconf20170904-4671-o3yg3q.rb extconf.rb
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+extconf failed, exit code 1
